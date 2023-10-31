@@ -2,7 +2,6 @@ import Lab3
 
 print("Test_Lab3")
 
-
 def test_bubble_sort_ascending():
     result = []
     input_arr = [64, 34, 25, 12, 22, 11, 90]
@@ -28,3 +27,18 @@ def test_bubble_sort_invalid():
     result = Lab3.bubble_sort(input_arr, 3)
 
     assert (result == [])
+
+def test_empty_array():
+    input_arr = []
+    result = Lab3.bubble_sort(input_arr, Lab3.SORT_ASCENDING)
+    assert (result == 0)
+
+def test_large_array():
+    input_arr = [64, 34, 25, 12, 22, 11, 90, 43, 56, 78, 9, 8, 7, 6, 5]
+    result = Lab3.bubble_sort(input_arr, Lab3.SORT_ASCENDING)
+    assert (result == 1)
+
+def test_large_array():
+    input_arr = [64, "abc", 25, 12, 22, 11, 90]
+    result = Lab3.bubble_sort(input_arr, Lab3.SORT_ASCENDING)
+    assert (result == 2)
