@@ -1,3 +1,9 @@
+<<<<<<< HEAD
 [submodule "practicelab2"]
 	path = practicelab2
 	url = https://github.com/eonghow/practicelab2
+=======
+[submodule "lab2"]
+	path = lab2
+	url = https://github.com/eonghow/lab2
+>>>>>>> 91ffec86cf83efc7e2cd50cb36e49724c9b24987

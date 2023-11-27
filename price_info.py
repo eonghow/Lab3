@@ -9,7 +9,10 @@ def total_cost_shopping():
     for key in price_list.keys():
         if key in quantity_list:
             total_cost += price_list[key] * quantity_list[key]
+<<<<<<< HEAD
 
+=======
+>>>>>>> 91ffec86cf83efc7e2cd50cb36e49724c9b24987
     print("total cost = ", total_cost)
     return total_cost
 

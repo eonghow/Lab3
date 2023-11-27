@@ -16,7 +16,11 @@ def bubble_sort(arr, sorting_order):
         return 0
     if n >= 10:
         return 1
+<<<<<<< HEAD
     if not all(isinstance(num,int) for num in arr):
+=======
+    if not all(isinstance(num, int) for num in arr):
+>>>>>>> 91ffec86cf83efc7e2cd50cb36e49724c9b24987
         return 2
 
     if n < 10:
